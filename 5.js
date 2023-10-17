@@ -9,7 +9,7 @@ function sortByLength(arr) {
     return arr;
 }
 
-function sortStringsByLength() {
+function display() {
     const inputString = prompt("enter comma-separarted elements:");
     if (!inputString) {
         alert("no input");
